@@ -1,0 +1,121 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 100;
+    font-size:30px;
+}
+body{
+    background-color: #F3F5FC;
+    
+
+}
+#logoAlura{
+    margin-top:50px ;
+    padding-left:80px;
+    max-width:31.09px;
+    max-height:47px ;
+    
+}
+#papa{
+    margin-left: 500px;
+}
+
+
+#cajaMuñeco{
+    background-color:#ffffff;
+    width: 47%;
+    float: right;
+    margin-right: 20px;
+    margin-bottom: 90px;
+    padding-bottom: 500px;
+    padding-top:300px;
+    border-radius: 20px;
+
+    
+    
+}
+#muñeco{
+    width: 70%;
+    height: 70%;
+    margin-left: 50px;
+    
+
+}
+
+#mensajeEncriptado{
+    font-family:'Inter', sans-serif; 
+    color: #343c44;
+    margin-left:50px;
+    margin-top:50px;
+    font-size: 900;
+    text-align: center;
+    text-shadow: #343c44;
+
+     
+}
+
+#textoAencriptar{
+    font-family:'Inter', sans-serif; 
+    color: #0A3871;
+    font-size: 16px;
+    margin-left: 50px;
+    margin-top:50px;
+    text-align: center;   
+}
+#inputEncriptar{
+    border: 0px solid red;
+    outline: none;
+    width: 450px;
+    background-color: #F3F5FC;
+    color:#0A3871
+}
+::placeholder { 
+    color:#0A3871
+}
+#textoParaEncriptar{
+    font-family:'Inter', sans-serif;
+    color: #0A3871;
+    width: 50%;
+    float: inline-start;
+    margin-top:50px;
+    margin-left: 400px;
+    
+}
+#botonEncriptar{
+    color:#ffffff;
+    font-family:'Inter', sans-serif;
+    font-size: 35px;
+    background-color: #0A3871;
+    margin-top: 20px;
+    border-radius: 20px;
+    margin-left: 100px;
+    
+}
+#botonDesencriptar{
+    color:#0A3871;
+    font-family:'Inter', sans-serif;
+    font-size: 35px;
+    background-color:  #D8DFE8;
+    margin-top: 20px;
+    border-radius: 20px;
+    
+
+}
+
+#aviso{
+    color: #495057;
+    font-family:'Inter', sans-serif;
+    font-size: 20px;
+    margin-top: 950px;
+    margin-left: 65px;
+}
+#textoAviso{
+    font-size: 25px;
+    margin-left: -10px;
+}
+#avisoEnTexto{
+    margin-left:100px;
+    margin-top: 10px;
+}
+
+
+
