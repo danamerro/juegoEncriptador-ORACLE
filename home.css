@@ -5,30 +5,37 @@
 }
 body{
     background-color: #F3F5FC;
-    
-
 }
+#cabezaDePagina{
+    width: 50%;
+    margin-right: 50%;
+    margin-top: -100px;
+}
+
 #logoAlura{
-    margin-top:50px ;
     padding-left:80px;
     max-width:31.09px;
     max-height:47px ;
     
 }
 #papa{
-    margin-left: 500px;
+    margin-left: 100px;
+    margin-top: 45px;
+    margin-bottom: 130px;
 }
 
 
 #cajaMuñeco{
     background-color:#ffffff;
-    width: 47%;
+    width: 20%;
     float: right;
-    margin-right: 20px;
-    margin-bottom: 90px;
-    padding-bottom: 500px;
-    padding-top:300px;
-    border-radius: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
+    padding-bottom: 100px;
+    margin-bottom: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+    border-radius:20px;
 
     
     
@@ -36,7 +43,10 @@ body{
 #muñeco{
     width: 70%;
     height: 70%;
-    margin-left: 50px;
+    margin-left: 65px;
+    margin-top: 200px;
+
+    
     
 
 }
@@ -44,20 +54,24 @@ body{
 #mensajeEncriptado{
     font-family:'Inter', sans-serif; 
     color: #343c44;
-    margin-left:50px;
-    margin-top:50px;
+    margin-left:20px;
+    margin-top:100px;
     font-size: 900;
     text-align: center;
     text-shadow: #343c44;
 
      
 }
+#textoAEncriptar{
+    color: #495057
+    
+}
 
 #textoAencriptar{
     font-family:'Inter', sans-serif; 
     color: #0A3871;
     font-size: 16px;
-    margin-left: 50px;
+    margin-left: 60px;
     margin-top:50px;
     text-align: center;   
 }
@@ -76,27 +90,31 @@ body{
     color: #0A3871;
     width: 50%;
     float: inline-start;
-    margin-top:50px;
+    margin-top:100px;
     margin-left: 400px;
     
 }
 #botonEncriptar{
     color:#ffffff;
     font-family:'Inter', sans-serif;
-    font-size: 35px;
+    font-size: 47px;
     background-color: #0A3871;
     margin-top: 20px;
     border-radius: 20px;
     margin-left: 100px;
+    padding-left: 35px;
+    padding-right:35px;
     
 }
 #botonDesencriptar{
     color:#0A3871;
     font-family:'Inter', sans-serif;
-    font-size: 35px;
+    font-size: 47px;
     background-color:  #D8DFE8;
     margin-top: 20px;
     border-radius: 20px;
+    padding-left: 35px;
+    padding-right: 35px;
     
 
 }
@@ -105,8 +123,8 @@ body{
     color: #495057;
     font-family:'Inter', sans-serif;
     font-size: 20px;
-    margin-top: 950px;
-    margin-left: 65px;
+    margin-top: 550px;
+    margin-left: 300px;
 }
 #textoAviso{
     font-size: 25px;

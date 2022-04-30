@@ -17,12 +17,7 @@
     <title>Encriptador de texto</title>
 </head>
 <body>
-    <header>
-        <div id="logoAlura" >
-            <img src="img/logoAlura.png">           
-        </div>
-    </header>
-    
+        
     <main>
         <div id="papa">
             <aside id="cajaMuñeco">
@@ -31,23 +26,30 @@
                 </div>
                 <div id="mensajeEncriptado">
                     <label for="domTextElement">Ningún mensaje fue encontrado</label>
+                    <h5 id="mensajeParaEncriptar">ingrese un texto que desee encriptar o desencriptar</h5>
                 </div>
             </aside>
         </div>
 
-        <div id="textoParaEncriptar">
-            <input type="text" value="Ingrese un texto aquí" id="inputEncriptar" placeholder="Ingrese un texto aquí">
-        </div>
-        <div id="aviso">
-            <div id="avisoEnTexto">
-                <img src="img/favicon_io/favicon-16x16.png" alt="" id="imgAviso">
-                <label for="domTextElement" id="textoAviso">Solo letras minúsculas y sin acentos.</label>
+        <div>
+            <div id="cabezaDePagina">
+                <img src="img/logoAlura.png" id="logoAlura">           
             </div>
-            <div id="Botones">
-                <button id="botonEncriptar">Encriptar</button>
-                <button id="botonDesencriptar">Desencriptar</button>
+
+            <div id="textoParaEncriptar">
+                <input type="text" value="Ingrese un texto aquí" id="inputEncriptar" placeholder="Ingrese un texto aquí">
             </div>
-            
+
+            <div id="aviso">
+                <div id="avisoEnTexto">
+                    <img src="img/favicon_io/favicon-16x16.png" alt="" id="imgAviso">
+                    <label for="domTextElement" id="textoAviso">Solo letras minúsculas y sin acentos.</label>
+                </div>
+                <div id="Botones">
+                    <button id="botonEncriptar">Encriptar</button>
+                    <button id="botonDesencriptar">Desencriptar</button>
+                </div> 
+            </div>
         </div>
         
        
