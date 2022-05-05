@@ -6,14 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="home.css">
     <link rel="stylesheet" type="text/css" href="normalize.css">
-    <link rel="stylesheet" href="text/js" href="home.js">
+    <script src='home.js' type="text/javaScript"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Montserrat:ital,wght@1,600&family=Oxygen:wght@300&display=swap" rel="stylesheet">
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="manifest" href="/site.webmanifest">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Montserrat:ital,wght@1,600&family=Oxygen:wght@300&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
     <title>Encriptador de texto</title>
 </head>
 <body>
@@ -29,6 +29,13 @@
                     <h5 id="mensajeParaEncriptar">ingrese un texto que desee encriptar o desencriptar</h5>
                 </div>
             </aside>
+            <aside id="cajaMuñecoNueva">
+                <div id="mensajeEncriptado">
+                    <h5 id="mensajeParaEncriptar">ingrese un texto que desee encriptar o desencriptar</h5>
+                    <button id="botonCopiar">Copiar</button>
+                </div>
+            </aside>
+
         </div>
 
         <div>
@@ -46,7 +53,7 @@
                     <label for="domTextElement" id="textoAviso">Solo letras minúsculas y sin acentos.</label>
                 </div>
                 <div id="Botones">
-                    <button id="botonEncriptar">Encriptar</button>
+                    <button  onclick ="desaparecerDiv()" id="botonEncriptar">Encriptar</button>
                     <button id="botonDesencriptar">Desencriptar</button>
                 </div> 
             </div>
@@ -55,6 +62,7 @@
        
     </main>
     <script>
+        
 
     </script>
 </body>

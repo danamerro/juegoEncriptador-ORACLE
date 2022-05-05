@@ -36,9 +36,32 @@ body{
     padding-left: 0px;
     padding-right: 0px;
     border-radius:20px;
+}
+#cajaMuñecoNueva{
+    background-color:#ffffff;
+    width: 20%;
+    float: right;
+    margin-right: 50px;
+    margin-left: 50px;
+    padding-bottom: 25px;
+    margin-bottom: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+    border-radius:20px;
+    display: none;
+}
+#botonCopiar{
+    color:#0A3871;
+    font-family:'Inter', sans-serif;
+    font-size: 40px;
+    background-color: #ffffff ;
+    margin-top: 550px;
+    border-radius: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 100px;
+    padding-right: 100px;
 
-    
-    
 }
 #muñeco{
     width: 70%;
@@ -100,10 +123,12 @@ body{
     font-size: 47px;
     background-color: #0A3871;
     margin-top: 20px;
-    border-radius: 20px;
+    border-radius: 50px;
     margin-left: 100px;
-    padding-left: 35px;
-    padding-right:35px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 100px;
+    padding-right:100px;
     
 }
 #botonDesencriptar{
@@ -112,9 +137,11 @@ body{
     font-size: 47px;
     background-color:  #D8DFE8;
     margin-top: 20px;
-    border-radius: 20px;
-    padding-left: 35px;
-    padding-right: 35px;
+    border-radius: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 100px;
+    padding-right: 100px;
     
 
 }
