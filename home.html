@@ -31,8 +31,8 @@
             </aside>
             <aside id="cajaMuñecoNueva">
                 <div id="mensajeEncriptado">
-                    <h5 id="mensajeParaEncriptar">ingrese un texto que desee encriptar o desencriptar</h5>
-                    <button id="botonCopiar">Copiar</button>
+                    <h5 id="pasajeDeMensaje">ingrese un texto que desee encriptar o desencriptar</h5>
+                    <button onclick="copiarTexto()" id="botonCopiar">Copiar</button>
                 </div>
             </aside>
 
@@ -44,7 +44,7 @@
             </div>
 
             <div id="textoParaEncriptar">
-                <input type="text" value="Ingrese un texto aquí" id="inputEncriptar" placeholder="Ingrese un texto aquí">
+                <input type="text"  id="inputEncriptar" placeholder="Ingrese un texto aquí">
             </div>
 
             <div id="aviso">
@@ -53,8 +53,8 @@
                     <label for="domTextElement" id="textoAviso">Solo letras minúsculas y sin acentos.</label>
                 </div>
                 <div id="Botones">
-                    <button  onclick ="desaparecerDiv()" id="botonEncriptar">Encriptar</button>
-                    <button id="botonDesencriptar">Desencriptar</button>
+                    <button  onclick ="desaparecerDiv(); encriptarTexto()" id="botonEncriptar">Encriptar</button>
+                    <button onclick="desencriptar()"; id="botonDesencriptar">Desencriptar</button>
                 </div> 
             </div>
         </div>
