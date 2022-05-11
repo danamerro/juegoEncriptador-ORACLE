@@ -171,7 +171,144 @@
     }
     
 } 
+@media all and (min-width:1024px) and (max-width:1200px){
+    *{
+        font-size:20px;
+    }
 
+    #cabezaDePagina{
+        margin-right: 50%;
+        margin-top: -100px;
+    }
+    
+    #logoAlura{
+        padding-left:45px;
+        max-width:31.09px;
+        max-height:47px ;
+        
+    }
+    #cajaAside{
+        margin-left: 100px;
+        margin-top: 45px;
+        margin-bottom: 130px;
+    }
+    
+    
+    #cajaMuñeco{
+        
+        width: 50%;
+        margin-top:100px;
+        padding-left:82px;
+        padding-right: 82px;
+        align-items: center;
+        float: inline-start;
+    }
+    #cajaMuñecoNueva{
+        width: 50%;
+        margin-top:100px;
+        padding-left:75px;
+        padding-right:82px;
+    }
+    #botonCopiar{
+        font-size: 15px;
+        margin-top: 95px;
+        border-radius: 50px;
+        margin-left:-30px;
+        
+    
+    }
+    #muñeco{
+        width: 60%;
+        height: 60%;
+        margin-left: 50px;
+
+    }
+    
+    #mensajeEncriptado{
+        font-family:'Inter', sans-serif; 
+        color: #343c44;
+        margin-left:20px;
+        padding-top:50px;
+        font-size: 900;
+        text-align: center;
+        text-shadow: #343c44;
+    
+         
+    }
+    #pasajeDeMensaje{
+        font-family:'Inter', sans-serif; 
+        font-size: 900;
+        justify-content: left;
+        
+    }
+    #textoAEncriptar{
+        color: #495057
+        
+    }
+    
+    #textoAencriptar{
+        font-family:'Inter', sans-serif; 
+        color: #0A3871;
+        font-size: 16px;
+        margin-left: 60px;
+        margin-top:50px;
+        text-align: center;   
+    }
+    #inputEncriptar{
+        border: 0px solid red;
+        outline: none;
+        width: 450px;
+        margin-top: 90px;;
+    }
+    ::placeholder { 
+        color:#0A3871
+    }
+    #textoParaEncriptar{
+        width: 50%;
+        padding-top:200px;
+        padding-bottom:900px;
+        margin-left: 180px;
+        padding-bottom:0px;
+        
+    }
+    #botonEncriptar{
+        font-size: 15px;
+        margin-top: 20px;
+        border-radius: 50px;
+        margin-left: 0px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    
+        
+    }
+    #botonDesencriptar{
+        font-size: 15px;
+        margin-top: 20px;
+        border-radius: 50px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        
+        
+    
+    }
+    
+    #aviso{
+        color: #495057;
+        font-family:'Inter', sans-serif;
+        font-size: 10px;
+        margin-top: 120px;
+        margin-left: 85px;
+    }
+    #textoAviso{
+        font-size: 20px;
+        margin-left: -8px;
+    }
+    #avisoEnTexto{
+        margin-left:0px;
+        margin-top: 10px;
+    }    
+
+}
 @media all and (min-width:600px) and (max-width:1023px){
     *{
         font-size:20px;
