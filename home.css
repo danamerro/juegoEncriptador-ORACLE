@@ -169,6 +169,15 @@
         margin-left:100px;
         margin-top: 10px;
     }
+
+    footer{
+        padding-top: 30px;
+        text-align: center;
+    }
+
+    footer h5, b{
+        font-size: 20px;
+    }
     
 } 
 @media all and (min-width:1024px) and (max-width:1200px){
@@ -308,6 +317,15 @@
         margin-top: 10px;
     }    
 
+    footer{
+        padding-top: 30px;
+        text-align: center;
+    }
+
+    footer h5, b{
+        font-size: 20px;
+    }
+
 }
 @media all and (min-width:600px) and (max-width:1023px){
     *{
@@ -445,6 +463,15 @@
         margin-left:0px;
         margin-top: 10px;
     }    
+
+    footer{
+        padding-top: 30px;
+        text-align: center;
+    }
+
+    footer h5, b{
+        font-size: 20px;
+    }
 
 }/* fin media 600 a 1023px*/
 @media all and (max-width:599px){
@@ -589,5 +616,14 @@
         margin-left:0px;
         margin-top: 10px;
     }    
+
+    footer{
+        padding-top: 30px;
+        text-align: center;
+    }
+
+    footer h5, b{
+        font-size: 20px;
+    }
 
 }
